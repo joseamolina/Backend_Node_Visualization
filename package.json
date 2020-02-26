@@ -1,0 +1,45 @@
+{
+  "name": "visualizador-grabaciones-backend",
+  "version": "0.0.0",
+  "private": true,
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon ./app.js",
+    "test": "mocha",
+    "prestart": "mongod &"
+  },
+  "dependencies": {
+    "body-parser": "~1.18.2",
+    "chai": "latest",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.9",
+    "express": "~4.15.5",
+    "express-session": "^1.15.6",
+    "express-ws": "latest",
+    "ffmpeg": "0.0.4",
+    "fluent-ffmpeg": "latest",
+    "ftp-client": "latest",
+    "jade": "~1.11.0",
+    "jsftp": "latest",
+    "jsonwebtoken": "latest",
+    "method-override": "^2.3.10",
+    "mongodb": "latest",
+    "mongoose": "^4.13.7",
+    "mongoose-auto-increment": "latest",
+    "mongoose-double": "latest",
+    "morgan": "~1.9.0",
+    "mysql": "latest",
+    "nodemailer": "^4.4.1",
+    "passport": "^0.4.0",
+    "passport-local": "^1.0.0",
+    "password-generator": "^2.2.0",
+    "request": "latest",
+    "serve-favicon": "~2.4.5",
+    "threads": "^0.8.1",
+    "websocket-stream": "latest"
+  },
+  "devDependencies": {
+    "mongoose-double": "latest",
+    "fluent-ffmpeg": "latest"
+  }
+}

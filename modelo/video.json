@@ -1,0 +1,18 @@
+{
+  "fecha_ini": "2016-02-22T15:12:36.000Z",
+  "carretilla": "21jk",
+  "cliente": "Luby",
+  "pedido": "RK1",
+  "duracion": 678,
+  "hitos": [{
+    "nombre_hito": "RK1_1",
+    "s_inicio": 9,
+    "s_final": 30,
+    "hitos": [{
+      "nombre_hito": "25N1",
+      "s_inicio": 9,
+      "s_final": 12,
+      "hitos": []
+    }]
+  }]
+}
